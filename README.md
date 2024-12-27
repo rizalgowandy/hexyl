@@ -4,7 +4,7 @@
 [![](https://img.shields.io/crates/l/hexyl.svg?colorB=22ba4c)](https://crates.io/crates/hexyl)
 ![](https://img.shields.io/crates/v/hexyl.svg?colorB=00aa88)
 
-`hexyl` is a simple hex viewer for the terminal. It uses a colored output to distinguish different categories
+`hexyl` is a hex viewer for the terminal. It uses a colored output to distinguish different categories
 of bytes (NULL bytes, printable ASCII characters, ASCII whitespace characters, other ASCII characters and non-ASCII).
 
 ## Preview
@@ -16,6 +16,7 @@ of bytes (NULL bytes, printable ASCII characters, ASCII whitespace characters, o
 ![](https://i.imgur.com/ln3TniI.png)
 
 ![](https://i.imgur.com/f8nm8g6.png)
+
 
 ## Installation
 
@@ -31,7 +32,7 @@ If you use an older version of Ubuntu, you can download
 the latest `.deb` package from the release page and install it via:
 
 ``` bash
-sudo dpkg -i hexyl_0.10.0_amd64.deb  # adapt version number and architecture
+sudo dpkg -i hexyl_0.15.0_amd64.deb  # adapt version number and architecture
 ```
 
 ### On Debian
@@ -54,7 +55,7 @@ sudo dnf install hexyl
 
 ### On Arch Linux
 
-You can install `hexyl` from [the official package repository](https://www.archlinux.org/packages/community/x86_64/hexyl/):
+You can install `hexyl` from [the official package repository](https://archlinux.org/packages/extra/x86_64/hexyl/):
 
 ```
 pacman -S hexyl
@@ -94,6 +95,18 @@ sudo port install hexyl
 
 ```
 pkg install hexyl
+```
+
+### On NetBSD
+
+```
+pkgin install hexyl
+```
+
+### On OpenBSD
+
+```
+doas pkg_add hexyl
 ```
 
 ### on Termux
@@ -163,6 +176,10 @@ sudo snap install hexyl
 scoop install hexyl
 ```
 
+### Via [X-CMD](https://x-cmd.com)
+```
+x env use hexyl
+```
 
 ## License
 

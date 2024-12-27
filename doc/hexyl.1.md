@@ -1,11 +1,6 @@
-% HEXYL(1) hexyl 0.10.0 | General Commands Manual
+% HEXYL(1) hexyl 0.12.0 | General Commands Manual
 %
-% 2022-03-23
-
-<!--
-This man page is written in Pandoc's Markdown.
-See: https://pandoc.org/MANUAL.html#pandocs-markdown
--->
+% 2022-12-05
 
 # NAME
 
